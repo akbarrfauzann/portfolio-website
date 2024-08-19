@@ -12,7 +12,7 @@ export default function Qualification() {
   };
 
   return (
-    <section className="section qualification">
+    <section className="section qualification" data-aos="fade-up">
       <h2 className="section-title">Qualification</h2>
       <span className="section-subtitle">My personal journey</span>
 

@@ -12,6 +12,7 @@
   "dependencies": {
     "@emailjs/browser": "^4.4.1",
     "@eslint/config-array": "^0.16.0",
+    "aos": "^2.3.4",
     "boxicons": "^2.1.4",
     "emailjs-com": "^3.2.0",
     "react": "^18.3.1",

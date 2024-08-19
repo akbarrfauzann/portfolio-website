@@ -1,10 +1,11 @@
 import "./About.css";
 import AboutImg from "../../assets/about.png";
-import CV from "../../assets/John-Cv.pdf";
+import CV from "../../assets/Resume.pdf";
 import Info from "./Info.jsx";
+
 export default function About() {
   return (
-    <section className="section about" id="about">
+    <section className="section about" id="about" data-aos="fade-up">
       <h2 className="section-title">About Me</h2>
       <span className="section-subtitle">My Introduction</span>
 

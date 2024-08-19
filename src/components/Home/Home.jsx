@@ -5,7 +5,7 @@ import ScrollDown from "./ScrollDown.jsx";
 
 export default function Home() {
   return (
-    <section className="section home" id="home">
+    <section className="section home" id="home" data-aos="fade-up" data-aos-delay="200">
       <div className="home-container container grid">
         <div className="home-content grid">
           <Social />

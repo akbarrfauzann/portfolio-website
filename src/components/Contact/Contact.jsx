@@ -16,7 +16,7 @@ export default function Contact() {
     e.target.reset();
   };
   return (
-    <section className="section contact" id="contact">
+    <section className="section contact" id="contact" data-aos="fade-up">
       <h2 className="section-title">Get In Touch</h2>
       <span className="section-subtitle">Contact Me</span>
 

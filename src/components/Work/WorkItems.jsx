@@ -4,7 +4,7 @@ const WorkItems = ({ item }) => {
   return (
     <div>
       <div className="work-card" key={item.id}>
-        <img src={item.image} alt={item.title} className="work-img" />
+        <img src={item.image} alt={item.title} className="work-img" loading="lazy" />
         <h3 className="work-title">{item.title}</h3>
         <div className="work-tags">
           {item.tags.map((tag, index) => (
@@ -13,7 +13,7 @@ const WorkItems = ({ item }) => {
             </span>
           ))}
         </div>
-        <a href={item.link} target="_blank" className="work-button">
+        <a href={item.link || "#"} target="_blank" className="work-button" aria-label={`Demo link to ${item.link}`}>
           Demo <FaArrowRight className="work-button-icon" />
         </a>
       </div>

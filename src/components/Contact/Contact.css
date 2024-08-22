@@ -7,9 +7,9 @@
 
 .contact-title {
   text-align: center;
-  font-size: var(--h3-font-size);
-  font-weight: var(--font-medium);
-  margin-bottom: var(--mb-1-5);
+  font-size: 1.25rem;
+  font-weight: 500;
+  margin-bottom: 1.5rem;
 }
 
 .contact-info {
@@ -19,7 +19,7 @@
 }
 
 .contact-card {
-  background-color: var(--containter-color);
+  background-color: #fff;
   border: 1px solid rgba(0, 0, 0, 0.1);
   border-radius: 0.75rem;
   padding: 1rem;
@@ -28,27 +28,27 @@
 
 .contact-card-icon {
   font-size: 2rem;
-  color: var(--title-color);
-  margin-bottom: var(--mb-0-25);
+  color: #333333;
+  margin-bottom: 0.25rem;
 }
 
 .contact-card-title,
 .contact-card-data {
-  font-size: var(--small-font-size);
+  font-size: 0.875rem;
 }
 
 .contact-card-title {
-  font-weight: var(--font-medium);
+  font-weight: 500;
 }
 
 .contact-card-data {
   display: block;
-  margin-bottom: var(--mb-0-75);
+  margin-bottom: 0.75rem;
 }
 
 .contact-button {
-  color: var(--text-color);
-  font-size: var(--small-font-size);
+  color: #757575;
+  font-size: 0.875rem;
   display: inline-flex;
   align-items: center;
   justify-content: center;
@@ -70,7 +70,7 @@
 
 .contact-form-div {
   position: relative;
-  margin-bottom: var(--mb-2);
+  margin-bottom: 2rem;
   height: 4rem;
 }
 
@@ -83,7 +83,7 @@
   background: none;
   border: 2px solid rgba(0, 0, 0, 0.3);
   border-radius: 0.75rem;
-  color: var(--text-color);
+  color: #757575;
   outline: none;
   padding: 1.5rem;
   z-index: 1;
@@ -93,9 +93,9 @@
   position: absolute;
   top: -0.75rem;
   left: 1.25rem;
-  font-size: var(--smaller-font-size);
+  font-size: 0.813rem;
   padding: 0.25rem;
-  background-color: var(--body-color);
+  background-color: #f8f8f8;
   z-index: 10;
 }
 

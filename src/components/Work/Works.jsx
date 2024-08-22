@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react";
-import { projectsData } from "./Data";
-import { projectsNav } from "./Data";
+import { projectsData } from "./Item";
+import { projectsNav } from "./Item";
 import WorkItems from "./WorkItems";
 
 export default function Works() {

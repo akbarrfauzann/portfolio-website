@@ -18,7 +18,7 @@ export default function Header() {
   return (
     <header className="header">
       <nav className="navbar container">
-        <a href="#" className="nav-logo">
+        <a href="#home" className="nav-logo">
           Akbar
         </a>
         <div className={`nav-menu ${toggle ? "show-menu" : ""}`}>

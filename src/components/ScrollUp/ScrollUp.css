@@ -2,11 +2,11 @@
   position: fixed;
   right: 2.2rem;
   bottom: -20%;
-  background-color: var(--title-color);
+  background-color: #333333;
   opacity: 0.8;
   padding: 0.4rem 0.5rem;
   border-radius: 0.4rem;
-  z-index: var(--z-tooltip);
+  z-index: 10;
   transition: 0.4s;
   display: flex;
   align-items: center;
@@ -15,11 +15,11 @@
 
 .scrollup-icon {
   font-size: 1rem;
-  color: var(--container-color);
+  color: #fff;
 }
 
 .scrollup:hover {
-  background-color: var(--title-color-dark);
+  background-color: #000000;
 }
 
 .show-scroll {

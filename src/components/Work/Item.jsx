@@ -1,4 +1,4 @@
-import Work1 from "../../assets/complaint.png";
+import Work1 from "../../assets/complaints.png";
 import Work2 from "../../assets/e-commerce.png";
 import Work3 from "../../assets/moezmarket-mobile.png";
 import Work4 from "../../assets/magazine-page.png";
@@ -11,8 +11,8 @@ export const projectsData = [
     title: "Public Complaint",
     image: Work1,
     category: "web",
-    tags: ["Laravel", "MySQL"],
-    link: "https://github.com/akbarrfauzann/UKK-M.-Akbar-Fauzan-Susetyo-Paket-A",
+    tags: ["Laravel", "MySQL", "Bootstrap"],
+    link: "https://github.com/akbarrfauzann/public-complaints",
   },
 
   {

@@ -8,7 +8,7 @@ export default function ScrollUp() {
   });
 
   return (
-    <a href="#home" className="scrollup">
+    <a href="#home" className="scrollup" aria-label="Back to top">
       <IoMdArrowUp className="scrollup-icon" />
     </a>
   );

@@ -1,9 +1,10 @@
 import Work1 from "../../assets/complaints.png";
 import Work2 from "../../assets/e-commerce.png";
-import Work3 from "../../assets/moezmarket-mobile.png";
-import Work4 from "../../assets/magazine-page.png";
-import Work5 from "../../assets/adidas-landing-page.png";
-import Work6 from "../../assets/todolist.png";
+import Work3 from "../../assets/hotel.png";
+import Work4 from "../../assets/moezmarket-mobile.png";
+import Work5 from "../../assets/magazine-page.png";
+import Work6 from "../../assets/adidas-landing-page.png";
+import Work7 from "../../assets/todolist.png";
 
 export const projectsData = [
   {
@@ -26,34 +27,43 @@ export const projectsData = [
 
   {
     id: 3,
-    title: "E-commerce Moezmarket App",
+    title: "Hotel Hebat",
     image: Work3,
+    category: "web",
+    tags: ["Laravel", "MySQL", "Bootstrap"],
+    link: "https://github.com/akbarrfauzann/hotel",
+  },
+
+  {
+    id: 4,
+    title: "E-commerce Moezmarket App",
+    image: Work4,
     category: "app",
     tags: ["Dart", "Flutter", "Linux"],
   },
 
   {
-    id: 4,
+    id: 5,
     title: "Blog Magazine",
-    image: Work4,
+    image: Work5,
     category: "web",
     tags: ["React JS", "Ant Design"],
     link: "https://akbarrfauzann.github.io/blog-project/",
   },
 
   {
-    id: 5,
+    id: 6,
     title: "Adidas Landing Page",
-    image: Work5,
+    image: Work6,
     category: "web",
     tags: ["HTML", "CSS", "Javascript"],
     link: "https://akbarrfauzann.github.io/adidas-design/",
   },
 
   {
-    id: 6,
+    id: 7,
     title: "Simple to-do list",
-    image: Work6,
+    image: Work7,
     category: "web",
     tags: ["React JS", "Tailwind CSS"],
     link: "https://akbarrfauzann.github.io/todo-list/",

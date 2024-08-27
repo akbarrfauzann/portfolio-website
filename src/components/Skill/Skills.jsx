@@ -1,5 +1,6 @@
 import "./Skills.css";
 import Frontend from "./Frontend";
+import Backend from "./Backend";
 
 export default function Skills() {
   return (
@@ -8,6 +9,7 @@ export default function Skills() {
       <span className="section-subtitle">My Technical level</span>
       <div className="skills-container container grid">
         <Frontend />
+        <Backend />
       </div>
     </section>
   );

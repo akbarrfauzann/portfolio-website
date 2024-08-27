@@ -15,8 +15,8 @@ export default function About() {
         <div className="about-data">
           <Info />
           <p className="about-description">
-            Graduated from Wikrama Vocation High School in Software Engineering. Passionate about Front-End Development. Experienced in web and mobile development through internships. Committed to working independently and professionally,
-            with strong teamwork skills and effective time management.
+            A graduate of SMK Wikrama Bogor with a major in Software Engineering, passionate about detailed learning and pursuing a career as a Front End Developer. Has hands-on internship experience as a Web Developer and Mobile Developer.
+            Highly committed and motivated to work independently and professionally, with strong teamwork skills and effective time management.
           </p>
           <a download="" href={CV} className="button button--flex">
             Download CV

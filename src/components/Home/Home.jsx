@@ -1,7 +1,7 @@
 import Social from "./Social.jsx";
 import Data from "./Data.jsx";
 import "./Home.css";
-import ScrollDown from "./ScrollDown.jsx";
+// import ScrollDown from "./ScrollDown.jsx";
 
 export default function Home() {
   return (
@@ -12,7 +12,7 @@ export default function Home() {
           <div className="home-img"></div>
           <Data />
         </div>
-        <ScrollDown />
+        {/* <ScrollDown /> */}
       </div>
     </section>
   );

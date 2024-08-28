@@ -69,8 +69,8 @@ export default function Contact() {
             </div>
 
             <div className="contact-form-div contact-form-area">
-              <label className="contact-form-tag">Project</label>
-              <textarea name="project" cols="30" rows="10" placeholder="Write your project" className="contact-form-input"></textarea>
+              <label className="contact-form-tag">Message</label>
+              <textarea name="project" cols="30" rows="10" placeholder="Write your message" className="contact-form-input"></textarea>
             </div>
 
             <button href="#contact" className="button button--flex">

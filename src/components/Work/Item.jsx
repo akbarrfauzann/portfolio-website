@@ -2,9 +2,10 @@ import Work1 from "../../assets/complaints.png";
 import Work2 from "../../assets/e-commerce.png";
 import Work3 from "../../assets/hotel.png";
 import Work4 from "../../assets/moezmarket-mobile.png";
-import Work5 from "../../assets/magazine-page.png";
-import Work6 from "../../assets/adidas-landing-page.png";
-import Work7 from "../../assets/todolist.png";
+import Work5 from "../../assets/travels.png";
+import Work6 from "../../assets/magazine-page.png";
+import Work7 from "../../assets/adidas-landing-page.png";
+import Work8 from "../../assets/todolist.png";
 
 export const projectsData = [
   {
@@ -44,26 +45,35 @@ export const projectsData = [
 
   {
     id: 5,
-    title: "Blog Magazine",
+    title: "Travel Website",
     image: Work5,
+    category: "web",
+    tags: ["React Js", "Tailwind CSS", "Node Jss"],
+    link: "https://github.com/akbarrfauzann/travels",
+  },
+
+  {
+    id: 6,
+    title: "Blog Magazine",
+    image: Work6,
     category: "web",
     tags: ["React JS", "Ant Design"],
     link: "https://akbarrfauzann.github.io/blog-project/",
   },
 
   {
-    id: 6,
+    id: 7,
     title: "Adidas Landing Page",
-    image: Work6,
+    image: Work7,
     category: "web",
     tags: ["HTML", "CSS", "Javascript"],
     link: "https://akbarrfauzann.github.io/adidas-design/",
   },
 
   {
-    id: 7,
+    id: 8,
     title: "Simple to-do list",
-    image: Work7,
+    image: Work8,
     category: "web",
     tags: ["React JS", "Tailwind CSS"],
     link: "https://akbarrfauzann.github.io/todo-list/",

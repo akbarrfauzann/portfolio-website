@@ -48,7 +48,7 @@ export const projectsData = [
     title: "Travel Website",
     image: Work5,
     category: "web",
-    tags: ["React Js", "Tailwind CSS", "Node Jss"],
+    tags: ["React Js", "Tailwind CSS", "Node Js"],
     link: "https://github.com/akbarrfauzann/travels",
   },
 

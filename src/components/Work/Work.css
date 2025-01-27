@@ -1,0 +1,128 @@
+.work-filters {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  column-gap: 0.75rem;
+  margin-bottom: 2rem;
+}
+
+.work-item {
+  color: #333333;
+  font-weight: 500;
+  padding: 0.25rem 0.75rem;
+  border-radius: 0.5rem;
+  text-transform: capitalize;
+  cursor: pointer;
+}
+
+.work-item:hover {
+  background-color: #333333;
+  color: #fff;
+}
+
+.work-container {
+  grid-template-columns: repeat(2, max-content);
+  gap: 3rem;
+  justify-content: center;
+}
+.work-card {
+  background-color: #fff;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  border-radius: 1rem;
+  padding: 1.25rem;
+}
+
+.work-img {
+  width: 400px;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 1rem;
+  margin-bottom: 1rem;
+  border: 1px solid rgba(0, 0, 0, 0.15);
+}
+.work-title {
+  font-size: 1rem;
+  font-weight: 500;
+  margin-bottom: 0.5rem;
+}
+
+.work-tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.3rem;
+  margin-top: 0.25rem;
+}
+
+.work-tag-name {
+  padding: 0.25rem 0.25rem;
+  background-color: #333333;
+  color: #ffffff;
+  border-radius: 0.25rem;
+  font-size: 0.55rem;
+}
+
+.work-button {
+  color: #757575;
+  font-size: 0.875rem;
+  display: flex;
+  align-items: center;
+  column-gap: 0.25rem;
+  margin-top: 0.25rem;
+}
+
+.work-button-icon {
+  transition: 0.4s;
+}
+
+.work-button:hover .work-button-icon {
+  transform: translateX(0.25rem);
+}
+
+.active-work {
+  background-color: #333333;
+  color: #fff;
+}
+
+@media screen and (max-width: 992px) {
+  .work-container {
+    gap: 1.25rem;
+  }
+
+  .work-card {
+    padding: 1rem;
+  }
+
+  .work-img {
+    margin-bottom: 0.75rem;
+  }
+
+  .work-title {
+    margin-bottom: 0.25rem;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .work-container {
+    grid-template-columns: max-content;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .work-container {
+    grid-template-columns: 1fr;
+  }
+
+  .work-img {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 350px) {
+  .work-item {
+    font-size: 0.813rem;
+  }
+
+  .work-filters {
+    column-gap: 0.25rem;
+  }
+}

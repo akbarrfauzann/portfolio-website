@@ -1,12 +1,11 @@
 import Work1 from "../../assets/complaints.png";
-import Work2 from "../../assets/e-commerce.png";
+import Work2 from "../../assets/boston.png";
 import Work3 from "../../assets/hotel.png";
 import Work4 from "../../assets/moezmarket-mobile.png";
 import Work5 from "../../assets/movie.png";
 import Work6 from "../../assets/travels.png";
 import Work7 from "../../assets/magazine-page.png";
 import Work8 from "../../assets/adidas-landing-page.png";
-import Work9 from "../../assets/todolist.png";
 
 export const projectsData = [
   {
@@ -24,7 +23,7 @@ export const projectsData = [
     image: Work2,
     category: "web",
     tags: ["React Js", "Tailwind CSS"],
-    link: "https://akbarrfauzann.github.io/ecommerce-react/",
+    link: "https://akbarrfauzann.github.io/ecommerce-boston/",
   },
 
   {
@@ -77,15 +76,6 @@ export const projectsData = [
     category: "web",
     tags: ["HTML", "CSS", "Javascript"],
     link: "https://akbarrfauzann.github.io/adidas-design/",
-  },
-
-  {
-    id: 9,
-    title: "Simple to-do list",
-    image: Work9,
-    category: "web",
-    tags: ["React JS", "Tailwind CSS"],
-    link: "https://akbarrfauzann.github.io/todo-list/",
   },
 ];
 

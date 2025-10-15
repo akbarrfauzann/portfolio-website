@@ -24,6 +24,12 @@ export default function Frontend() {
               <h3 className="skills-name">Javascript</h3>
             </div>
           </div>
+          <div className="skills-data">
+            <LuBadgeCheck className="skills-icon" />
+            <div>
+              <h3 className="skills-name">Typescript</h3>
+            </div>
+          </div>
         </div>
 
         <div className="skills-group">
@@ -43,6 +49,12 @@ export default function Frontend() {
             <LuBadgeCheck className="skills-icon" />
             <div>
               <h3 className="skills-name">React JS</h3>
+            </div>
+          </div>
+          <div className="skills-data">
+            <LuBadgeCheck className="skills-icon" />
+            <div>
+              <h3 className="skills-name">Next JS</h3>
             </div>
           </div>
         </div>
